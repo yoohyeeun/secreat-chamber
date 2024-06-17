@@ -21,7 +21,7 @@ $(document).ready(function(){
   let card1 = $(".swiper-slide div.forword")
   let card2 = $(".swiper-slide div.back")
 
-  $(".swiper-slide").hover(function(){
+  $(".swiper-slide").click(function(){
     $(this).find(card1).toggleClass('active');
     $(this).find(card2).toggleClass('active');
   });
